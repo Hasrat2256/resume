@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.outer{
+    width: 700px;
+    height: 800px;
+    border: 3px solid black;
+    margin: 0px auto;
+    background-color: aqua;
+}
+.outer h1{
+    text-align: center;
+    color: black;
+    background-color: blueviolet ;
+}
+.outer p {
+font-size: 20px;
+margin-left: 3%;
+}
+.outer img{
+    height: 110px;
+    width: 100px;
+}
+.border :hover{
+    width: 30%;
+    padding: 5px;
+    background-color: rgb(140, 151, 76);
+    border: 2px;
+    font-weight: bold;
+    
+}
+.outer ul{
+    margin-left: 3%;
+}
+.outer img {
+    margin: 20px;
+}
+.outer table{
+    margin-left: 3%;
+    background-color: aquamarine;
+    color: blue;
+}
+.outer h1 ::after
+
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 3px;
+    width: 0%;
+    
+    transition: all ease 1.5 sec;
+}
+.outer h1 :hover {
+     width: 100%;
+}
